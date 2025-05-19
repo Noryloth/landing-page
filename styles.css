@@ -1,0 +1,163 @@
+/* General Styling */
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F8FAF8;
+    border: none;
+    border-radius: 4px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8
+}
+
+/* Header Styling */
+.header {
+    background-color: #1F2937;
+}
+
+.header button {
+    font-size: 18px;
+    padding: 6px 24px;
+}
+
+.header-left {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px 0 24px 0;
+}
+
+.header-right {
+    display: flex;
+    gap: 16px;
+}
+
+/* Website Info and Image Styling */
+.website-info h1 {
+    font-size: 48px;
+    color: #F8FAF8;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.website-info p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.website-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 64px;
+    padding-bottom: 64px;
+    gap: 32px
+}
+
+.website-info img {
+    border-radius: 15%;
+}
+
+.website-left {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 450px;
+}
+
+/* Middle Page Styling */
+.main {
+    text-align: center;
+}
+
+.main-info {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 32px;
+}
+
+.subtext {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 32px;
+    margin-bottom: 48px;
+}
+
+.subtext-item img {
+    width: 130px;
+    height: 130px;
+    border: 2px solid #bbc4d1;
+    border-radius: 10%;
+    padding: 4px;
+    
+}
+
+.subtext-item {
+    max-width: 150px;
+}
+
+/* Quote Styling */
+.quote {
+    font-size: 26px;
+    font-style: italic;
+    color: #1F2937;
+    background-color: #E5E7EB;
+    padding: 70px;
+}
+
+.quote-author {
+    text-align: right;
+    font-style: normal;
+}
+
+/* Sign-up Styling */
+.sign-up {
+    display: flex;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    padding: 36px;
+    margin: 80px;
+    border-radius: 16px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call {
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.sign-up-button {
+    border: 2px solid #E5E7EB;
+    border-radius: 2px;
+}
+
+.sign-up-button button {
+    font-size: 18px;
+    padding: 6px 24px;
+    font-weight: 700;
+}
+
+/* Footer Styling */
+.footer {
+    padding: 16px;
+    color: #E5E7EB;
+    background-color: #1F2937;
+    text-align: center;
+}
